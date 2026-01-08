@@ -5,6 +5,6 @@ def test_bank_details():
         "Account Name:swapna\n"
         "Account No:1001\n"
         "Account Type:current\n"
-     
     )
-    assert bank_details("swapna",1001, "current") == expected_output
+
+    assert bank_details("swapna", 1001, "current") == expected_output
