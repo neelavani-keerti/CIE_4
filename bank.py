@@ -1,16 +1,13 @@
-def bank_details(name,acc_no,acc_type):
-    result = (
-        f"Account Name:{name}\n"
-        f"Account No:{acc_no}\n"
-        f"Account Type:{acc_type}\n"
-      
+def bank_details(name, acc_no, acc_type):
+    return (
+        f"Account Name: {name}\n"
+        f"Account No: {acc_no}\n"
+        f"Account Type: {acc_type}"
     )
-    return result
 
 if __name__ == "__main__":
-    name ="swapna"
-    acc_no ="1001"
-    acc_type ="current"
-   
+    name = input("Enter account holder name: ")
+    acc_no = input("Enter account number: ")
+    acc_type = input("Enter account type: ")
 
-    print(bank_details(name,acc_no,acc_type))
+    print(bank_details(name, acc_no, acc_type))
